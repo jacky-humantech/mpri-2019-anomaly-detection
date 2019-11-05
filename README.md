@@ -6,7 +6,7 @@ Welcome to the practical work for the lecture "Anomaly Detection with SVM". We'l
 
 ## Dependencies
 
-- [python 3](https://www.python.org/downloads) (>= 3.5 is better)
+- [python 3](https://www.python.org/downloads) (>= 3.6 is better)
 - [pip](https://pip.pypa.io/en/stable/installing/)
 - virtualenv (`pip install virtualenv`)
 
@@ -15,9 +15,11 @@ Welcome to the practical work for the lecture "Anomaly Detection with SVM". We'l
 
 Create a virtual environment with Python 3
 
-	virtualenv -p /usr/bin/python3.6 venv
+	virtualenv -p python3 venv
 
-Note: if you are on a Mac, your path may be located at `/usr/local/bin/` instead of `/usr/bin/`
+Note: If python3 is not on your path, you have to specify it in the command like this:
+- on Mac: `virtualenv -p /usr/local/bin/python3.6 venv`
+- on Linux: `virtualenv -p /usr/bin/python3.6 venv`
 
 Enter the virtual environment
 
